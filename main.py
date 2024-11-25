@@ -1,7 +1,12 @@
-#!/usr/bin/python3
-
 """
 main file for this project
+
+USAGE:
+    python3 main.py "https://www.gutenberg.org/cache/epub/84/pg84.txt" # frankenstien
+    python3 main.py "https://www.gutenberg.org/cache/epub/1129/pg1129.txt" -c 100 # macbeth w/ 100 most common words
+    python3 main.py "https://www.gutenberg.org/cache/epub/120/pg120.txt" -c 100 -o "treasure-island.csv" # treasure island w/ 100 most common words and exports to csv
+    python3 main.py "https://www.gutenberg.org/cache/epub/11/pg11.txt" # alice in wonderland]
+
 see README.md
 johan cho 2024-11-21
 """

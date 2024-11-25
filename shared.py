@@ -110,3 +110,8 @@ def parse_text(_text: str) -> str:
     if "*** end of" in _text:
         _text = _text.split("*** end of")[0]
     return _text.strip()
+
+
+@(lambda _: _())
+def return_1():
+    return 1
